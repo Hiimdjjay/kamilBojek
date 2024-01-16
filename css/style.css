@@ -153,6 +153,7 @@ table {
   color: white;
   font-size: 1.8rem;
   margin-right: 1em;
+  padding: 5px;
 }
 .footer__social {
   display: flex;
@@ -160,6 +161,9 @@ table {
 }
 .footer__social-box {
   width: 50%;
+}
+.footer i {
+  display: none;
 }
 .footer__arrow {
   position: absolute;
@@ -179,4 +183,40 @@ table {
 .footer__link:hover .footer__arrow {
   transform: translateX(40px);
   opacity: 0;
+}
+
+@media (max-width: 992px) {
+  .footer__contact-box {
+    width: 35%;
+  }
+}
+@media (max-width: 768px) {
+  .nav__item {
+    padding: 5px 0;
+  }
+  .header__title {
+    font-size: 4.8rem;
+    bottom: 8%;
+  }
+  .footer__box {
+    padding: 5px 20px;
+  }
+  .footer__contact {
+    flex-direction: column;
+  }
+  .footer__contact-box {
+    width: 35%;
+  }
+  .footer__text-email {
+    display: none;
+  }
+  .footer__link {
+    display: none;
+  }
+  .footer i {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

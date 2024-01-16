@@ -130,6 +130,7 @@
 		color: white;
 		font-size: 1.8rem;
 		margin-right: 1em;
+		padding: 5px;
 	}
 
 	&__social {
@@ -139,6 +140,10 @@
 		&-box {
 			width: 50%;
 		}
+	}
+
+	i{
+		display: none;
 	}
 
 	&__arrow {
@@ -161,6 +166,62 @@
 				transform: translateX(40px);
 				opacity: 0;
 			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.footer {
+		&__contact {
+			&-box {
+				width: 35%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.nav {
+		&__item {
+			padding: 5px 0;
+		}
+	}
+
+	.header {
+		&__title {
+			font-size: 4.8rem;
+			bottom: 8%;
+		}
+	}
+
+	.footer {
+		&__box {
+			padding: 5px 20px;
+		}
+
+		&__contact {
+			flex-direction: column;
+			&-box {
+				width: 35%;
+			}
+		}
+
+		&__text {
+
+			&-email {
+				display: none;
+			}
+		}
+
+		&__link {
+			display: none;
+		}
+
+		i {
+			display: block;
+			color: $pure-white;
+			font-size: 2rem;
+			padding: 10px;
 		}
 	}
 }
