@@ -207,6 +207,9 @@ table {
   .footer__contact-box {
     width: 35%;
   }
+  .footer__text {
+    color: rgb(255, 255, 255);
+  }
   .footer__text-email {
     display: none;
   }

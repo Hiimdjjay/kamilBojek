@@ -142,7 +142,7 @@
 		}
 	}
 
-	i{
+	i {
 		display: none;
 	}
 
@@ -207,6 +207,7 @@
 		}
 
 		&__text {
+			color: $pure-white;
 
 			&-email {
 				display: none;
