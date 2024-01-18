@@ -127,7 +127,7 @@
 
 	&__text {
 		display: inline-block;
-		color: white;
+		color: $pure-white;
 		font-size: 1.8rem;
 		margin-right: 1em;
 		padding: 5px;
@@ -205,10 +205,7 @@
 				width: 35%;
 			}
 		}
-
 		&__text {
-			color: $pure-white;
-
 			&-email {
 				display: none;
 			}
