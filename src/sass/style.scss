@@ -125,7 +125,7 @@
 		}
 	}
 
-	&__text {
+	&__link-contact  {
 		display: inline-block;
 		color: $pure-white;
 		font-size: 1.8rem;
@@ -141,6 +141,8 @@
 			width: 50%;
 		}
 	}
+
+
 
 	i {
 		display: none;
@@ -205,11 +207,9 @@
 				width: 35%;
 			}
 		}
-		&__text {
-			color: &pure-white;
-			&-email {
-				display: none;
-			}
+
+		&__link-contact-email{
+			display: none;
 		}
 
 		&__link {

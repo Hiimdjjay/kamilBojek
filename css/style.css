@@ -148,9 +148,9 @@ table {
 .footer__contact-box {
   width: 25%;
 }
-.footer__text {
+.footer__link-contact {
   display: inline-block;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1.8rem;
   margin-right: 1em;
   padding: 5px;
@@ -207,10 +207,7 @@ table {
   .footer__contact-box {
     width: 35%;
   }
-  .footer__text {
-    color: rgb(255, 255, 255);
-  }
-  .footer__text-email {
+  .footer__link-contact-email {
     display: none;
   }
   .footer__link {
