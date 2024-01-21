@@ -20,6 +20,7 @@
 		&-logo {
 			font-size: 2.1rem;
 			color: $pure-white;
+			padding: 5px;
 		}
 	}
 
@@ -84,7 +85,7 @@
 	}
 
 	&__shadow {
-		background-color: $shadow;
+		background-image: $shadow-gradient;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -95,13 +96,15 @@
 		position: absolute;
 		left: 0;
 		bottom: 12.5%;
-		padding: 25px;
+		padding: 30px;
 		z-index: 100;
 		font-size: 5.2rem;
 		font-weight: 400;
 		color: $pure-white;
 	}
 }
+
+//FOOTER
 
 .footer {
 	position: absolute;

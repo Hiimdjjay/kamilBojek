@@ -1,4 +1,10 @@
 $pure-white: rgb(255, 255, 255);
 $light-white: rgb(240, 240, 240);
-$shadow: rgba(0, 0, 0, 0.2);
+$shadow: rgba(0, 0, 0, 0.6);
 $dark: rgb(20, 20, 20);
+
+$shadow-gradient: linear-gradient(
+	to bottom,
+	rgba(0, 0, 0, 0.2) 0%,
+	rgba(0, 0, 0, 0.7) 100%
+);
