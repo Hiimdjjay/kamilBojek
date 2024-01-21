@@ -188,12 +188,17 @@
 		&__item {
 			padding: 5px 0;
 		}
+
+		&__brand-logo {
+			padding: 0;
+		}
 	}
 
 	.header {
 		&__title {
 			font-size: 4.8rem;
 			bottom: 8%;
+			padding: 25px;
 		}
 	}
 
